@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sre-take-home-exercise-python"
+version = "0.0.1"
+authors = [
+  { name="Takumi Nishida", email="tnishida808@gmail.com" },
+]
+description = "Take home exercise for Fetch"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.32.3",
+    "PyYAML>=6.0.2",
+    "aiohttp>=3.11.16",
+    "asyncio>=3.4.3"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["./"]
