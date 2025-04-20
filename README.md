@@ -28,7 +28,7 @@ python main.py test.yaml
 
 Notes and thought process as I go through this exercise:
 
-## Reading through the repo
+### Reading through the repo
 
 - there's no dependency file in the repository and we use libraries outside of STL for python like yaml and requests so we'll need to install those and keep track of these
     - I used python3's built in function to setup a separate virtual environment, defined the necessary packages in a pyproject.toml and installed them.
